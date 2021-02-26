@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'resume/CSS/style.css' %}" />
+		<script src="{% static 'resume/js/script.js' %}"></script>
+	</head>
+	
+	<body>
+		<div id="header" >
+			<h1>Aashutosh Kumar Portfolio</h1>
+		</div>
+		
+		<div id="main">
+			<div id="h-nav">
+				<a href="#title">Home</a>
+				<a href="#summary">Summary</a>
+				<a href="#contact">Contact</a>
+				<a href="#experience" >Experience</a>	
+				<a href="https://www.linkedin.com/in/aashutosh0012/" target="_blank" style="padding: 10px 10px 10px 50px; 
+				background-image:url({% static 'resume/images/linkedin.png' %}); background-repeat: no-repeat; text-align: left;">LinkedIn Profile</a>
+				<a href="tel:918105027515"> Phone: 91 8105027515 </a>
+				<a href="mailto:aashutosh0012@gmail.com" >Email: aashutosh0012@gmail.com</a>
+
+
+			</div>
+			<div id ="content">
+				<article>
+					<div id="title">
+						<h2>Aashutosh Kumar</h2>
+					</div>
+					<div id="keywords">
+						<p>Django, Python, Database Admin, Jira Admin</p>
+						<p><a href="tel:918105027515" style="text-decoration: none;">91 8105027515 </a> | <a href="mailto:aashutosh0012@gmail.com" style="text-decoration: none;" > aashutosh0012@gmail.com</a></p>
+					</div>
+					<div id="summary">
+						<h4>Summary</h5>
+					</div>
+					<div id="paragraph">
+						<p>A Python & Django Developer, with 6+ years of experience working on various Technologies like Django, Python, Database Administration with successful stincts at Technicolor, SAP Labs & Capgemini</p>
+					</div>
+					<div id="summary-lists">
+						<ul>
+							<li>Python & Django with (HTML, CSS, Javascript).</li>
+							<li>Database Administration (Oracle, SQL Server, HANA, MySQL, Postgresql).</li>
+							<li>Linux Administration, Shell Scripting.</li>
+							<li>Automation using Jenkins, Shell & Python, Powershell Scripts.</li>
+							<li>Jira Administration & Development.</li>
+						</ul>
+					</div>
+					<div id="sub-head">
+						<h4>Skills</h4>
+						<div id="django-skills">
+							<h5>Django</h5>
+						</div>
+						<div id="django-lists">
+							<ul>
+								<li>Design Pages using HTML, CSS & Javascript</li>
+								<li>Write effective, scalable code.</li>
+								<span id="dots">...</span>
+								<span id="more">
+								<li>Develop back-end components to improve responsiveness and overall performance.</li>
+								<li>Integrate user-facing elements into applications.</li>
+								<li>Test and debug programs</li>
+								<li>Improve functionality of existing systems.</li>
+								<li>Implement security and data protection solutions</li>
+								</span>							
+								<!-- <a href="#django-skills" style="text-decoration:none; color:blue;" onclick="myFunction()" id="myBtn">Read more</a> -->
+								<a style="text-decoration:none; color:blue;" onclick="myFunction()" id="myBtn">Read more</a>
+							</ul>
+						</div>
+						<div id="python-skills">
+							<h5>Python</h5>
+						</div>
+						<div id="python-lists">
+							<ul>
+								<li>Experience working with Pands, Numpy, Matplotlib</li>
+								<li>Developing Graphical Games & Applications using PyAutoGUI, TkInter,PyGame, Turtle.</li>
+								<span id="dots-python">...</span>
+								<span id="more-python">
+								<li>Custom Youtube Video Downloader.</li>
+								<li>Writing Python scripts for automating Infrastructre Operations tasks .</li>
+								<li>Made Incident Management Interface between Monitoring Tool: Solarwinds & Ticket Tool: Jira.</li>
+								<li>Webscraping.</li>
+								<li>Face Recognition System using OpenCV</li>
+								<li>Experience with Regex - Regular Expression</li>
+								<li>Twitter Bot to reply to specific keywords, hashtags</li>
+								<li>Experience working with REST APIs</li>
+								</span>							
+								<a style="text-decoration:none; color:blue;" onclick="myFunction_python()" id="myBtn-python">Read more</a>
+							</ul>
+						</div>
+						<div id="oracle-skills">
+							<h5>Oracle Database Administration</h5>
+						</div>
+						<div id="oracle-lists">
+							<ul>
+								<li>Oracle DB</li>
+									<ul>
+										<li>Oracle Versions: 7i - 19c</li>
+										<li>Operating Systems: Unix/Linux, Suse, Solaris, HP-UX, Windows</li>
+									</ul>
+								<span id="dots-oracle">...</span>
+								<span id="more-oracle">
+								<li>Installation, Upgrade, Decomission and Complete Lifecycle Management of Oracle Databases.</li>
+								<li>Installation of Oracle Enterprise Manager (OEM 13c) for Monitoring of Databases.</li>
+								<li>Setting up Alerts and Monitoring via Shell Scripts & OEM.</li>
+								<li>Users & Tablespace Management .</li>
+								<li>Database performance Tuning.</li>
+								<li>Backup & Recovery.</li>
+									<ul>
+										<li>Profiecient in User Managed amd RMAN Backups</li>
+										<li>Writing Scripts to Schedule Backups as per required intervals</li>
+										<li>Performing various Restore scenarios on premise and cloud solutions</li>
+										<li>Managing Complete and Incomplete Datafailure Restores & Recovery</li>
+									</ul>
+								<li>Profiecient in Datapump and Traditional Export & Import Utilities.</li>
+								<li>Creating Automation Jobs to Refresh Different Databases & components using Shell & Python Scripts & Jenkins</li>
+								<li>Automated 90% of regular Tasks using Shell & Python Scripts</li>
+								<li>Various Reports from Database and Oracle Apps automation</li>
+								<li>Password Reset Automation Tool for End Users on Database via Jenkins for Diff flavors of Databases like Oracle, Sybase, HANA, SQL Server</li>
+								<li>Knowledge on PL/SQL Scripts & blocks</li>
+								<li>Experience on RAC, Exadata, ASM, Dataguard.</li>
+								<li>Writing Powershell Scripts to manage and automate DB tasks on Windows Systems</li>
+								<li>Experience working on SQL Server, MySQL, HANA Databases.</li>
+								</span>							
+								<a style="text-decoration:none; color:blue;" onclick="myFunction_oracle()" id="myBtn-oracle">Read more</a>
+							</ul>
+						</div>
+						<div id="jira-skills">
+							<h5>Jira Administration</h5>
+						</div>
+						<div id="jira-lists">
+							<ul>
+								<li>Complete Installation, Upgrade of Jira Service Desk, Jira Software & Confluence on linux</li>
+								<span id="dots-jira">...</span>
+								<span id="more-jira">
+								<li>SQL Server Database Installation and setup for Jira </li>
+								<li>Creating and Managing Multiple Projects in Single Instance of Jira</li>
+								<li>Creating, Designing of Request Forms with Dynamic Fields and cascading features.</li>
+								<li>Writing Automation Rules for Triaging Tickets, Notify Teams, Transition Issues based on conditions.</li>
+								<li>Designing Workflows with various automations using Postfunction & Validators.</li>
+								<li>Designing Approval Mechanism via Email</li>
+								<li>Designing Custom Email Notification depending on events and recipeints</li>
+								<li>Integrating Jira with Microsoft Teams for Customer and Agents</li>
+								<li>Integrated Solarwinds Monitoring and Jira Service Desk for Incident Management with Python Scripts</li>
+								<li>Project Management</li>
+									<ul>
+										<li>User & Role Management via Active Directory LADP & ADLDS</li>
+										<li>Setting up Email Channels and Mail Handlers</li>
+										<li>Defining Notification, Permission Schemes</li>
+										<li>Creating Dymanic Forms</li>
+										<li>Change Issue Status based on Automation rule like, Re-Open Issue/Ticket via Email/Comments</li>
+									</ul>
+								<li>Fetching Custom Field Data from Outside Datasources like External Databases using Elements Connect & Scriptrunner</li>
+								<li>Automating Issue Field Data Collection using Scriptrunner</li>
+								<li>Approval Mechanism to send approval directly to User's Manager</li>
+								<li>Managing SLAs, Reports, Dashboards, Filters & Subscriptions</li>
+								<li>Automation Rules to transition Tickets and comments based on Ticket Status</li>
+								<li>Setting up Confluence and linking Confluence Space Articls to Jira Service Desk</li>
+								<li>Designing Spaces and Pages in Confluence with Space Permission and Page Restrictions</li>
+								<li>Issue Synchronization between Jira Service Desk & Jira Software</li>
+								<li>Configuring Single Sign On in Jira via Okta</li>
+								<li>Automate tasks like Active Directory Management via Script Runner and Python Scripts</li>
+								<li>Playing with multiple Plugins for various requirements</li>
+								</span>							
+								<a  style="text-decoration:none; color:blue;" onclick="myFunction_jira()" id="myBtn-jira">Read more</a>
+							</ul>
+						</div>					
+					<div id="experience">
+						<h4>Work Experience<h4>
+					</div>
+					<div>
+						<ul>
+							<li>System Admin at <a href="https://www.technicolor.com/" target=_blank style="text-decoration: none;" >Technicolor SA</a> <i>, May 2019 - Till present</i>.</li>
+							<li>IT Technology Associate Consultant at<a href="https://www.sap.com/india/about/labs-india.html" target=_blank style="text-decoration: none;"> SAP Laps, Banaglore</a>, <i>Feb-2018 - May-2019</i> </li>
+							<li>Associate Consultant at <a href="https://www.capgemini.com/" target=_blank style="text-decoration: none;">Capgemini</a>, <i>June-2014 - Feb 2018</i></li>
+							<li>Campus Placement at <a href="https://www.mindtree.com/" target=_blank style="text-decoration: none;">Mindtree</a>, <i>2013</i></li>
+						</ul>
+					</div>
+					<div id="sub-head">
+						<h4>Education<h4>
+					</div>
+					<div>
+						<ul>
+							<li>B.Tech (Electronics & Communication Engineering), CUTM, Odisha, 77% (2009-2013)</li>
+							<li>Class 12<sup>th</sup> from DAV Public School (CBSE), Rajrappa, Jharkhand, 76%, (2009)</li>
+							<li>Class 10<sup>th</sup> from DAV Public School (CBSE), Rajrappa, Jharkhand, 87%, (2007)</li>
+						</ul>
+					</div>
+					<div id="sub-head">
+						<h4>Personal Dossier<h4>
+					</div>
+					<div>
+						<ul>
+							<li>Tech Savvy curious observer foccussed on Startups, Spaces Explorations, Cryptos, Current & Global Affairs, Geo-Politics </li>
+							<li>Concerned about Global Warming & Climate Change, Plogging, Cleaning & Saving Natural Water Bodies  </li>
+						</ul>
+					</div>
+					
+				</article>
+			</div>
+		</div>
+		<div id = footer >
+			<a href="#top">Go to Top</a>
+			<p>This Website has been built using Django, HTML, CSS & Javascript by &copy Aashutosh Kumar, <a href="tel:918105027515" style="color:black;">Phone:91 8105027515</a>, <a href="mailto:aashutosh0012@gmail.com" style="color:black;">Email: aashutosh0012@gmail.com</a></p>
+			
+		</div>
+	</body>
+</html>

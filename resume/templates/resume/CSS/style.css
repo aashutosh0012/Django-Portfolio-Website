@@ -1,0 +1,85 @@
+
+body {
+	background-color:#8FE7F5;
+}
+
+
+#header {
+	position: sticky ;
+	top: 0;
+	text-align: center;
+	/* width:100%; */
+	background-color:#4C41BC;
+	color:white;
+	font-family: verdana;
+	border-radius: 12px;
+	border: 2px solid #CA2E40;
+}
+
+#main {
+	/* border: solid; */
+	margin: 10px;
+	/* overflow: auto;*/  /*Fit element to height of content*/
+	display: flex;	/*Display Element contents side by side*/
+}
+
+#nav {
+	float: left;
+	width: 200px;
+	border: solid;
+	/* position: sticky ; */
+}
+
+#content {
+	/* float: left; */				/*Display element to Left (Column wise)*/
+	/* margin-left: 300px */
+	padding-left: 10px;
+	height:700px;
+	overflow: scroll;
+	background-color:#8AF0DD;
+	border: 5px groove white;
+	border-radius: 12px;
+}
+
+#footer {
+	/* position: fixed; */
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+}
+
+#title, #keywords{
+	text-align: center;
+}
+
+/* Hide "Read more" <span id="more"> */
+#more, #more-python, #more-oracle, #more-jira {
+	display:none
+}
+
+
+a {
+	text-decoration: none; 
+}
+
+
+/* Navigation Buttons */
+#h-nav a {
+  /* background-color: #eee; /* Grey background color */ */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  border: 1px solid;
+}
+
+#h-nav a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+/* #nav a.active { */
+  /* background-color: #A9A9A9; /* Add a green color to the "active/current" link */ */
+  /* color: white; */
+/* } */
+
